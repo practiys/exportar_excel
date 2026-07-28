@@ -1,0 +1,19 @@
+{
+  "name": "exportador_companies",
+  "version": "1.0.0",
+  "description": "Exportador de empresas desde Supabase a Excel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "node index.js",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.111.0",
+    "axios": "^1.18.1",
+    "dotenv": "^17.4.2",
+    "exceljs": "^3.4.0",
+    "express": "^5.2.1",
+    "node-cron": "^4.6.0"
+  }
+}
